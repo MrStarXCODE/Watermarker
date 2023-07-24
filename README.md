@@ -18,7 +18,7 @@ This is a simple script to add a watermark to all images in a specified director
 2. Navigate to the cloned directory:
 
    ```bash
-   cd your_repo
+   cd Watermarker
    ```
 
 3. Install the required Python packages:
