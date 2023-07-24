@@ -1,37 +1,47 @@
-Image Watermarker
+
+# Image Watermarker
+
 This is a simple script to add a watermark to all images in a specified directory.
 
-Author
-$Kek - MrStarXCODE
+## Author
 
-Installation
-Clone the repository to your local machine:
+`$Kek - MrStarXCODE`
 
-bash
-Copy code
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
 git clone https://github.com/MrStarXCODE/Watermarker.git
-Navigate to the cloned directory:
+   ```
+   
+2. Navigate to the cloned directory:
 
-bash
-Copy code
-cd your_repo
-Install the required Python packages:
+   ```bash
+   cd your_repo
+   ```
 
-bash
-Copy code
-pip install pillow
-Usage
-Replace 'imgs' in the script with the path to the directory containing the images you want to watermark.
+3. Install the required Python packages:
 
-Replace 'path_to_your_watermark_image.png' in the script with the path to the image you want to use as a watermark.
+   ```bash
+   pip install pillow
+   ```
 
-Run the script:
+## Usage
 
-bash
-Copy code
-python3 watermark.py
+1. Replace `'imgs'` in the script with the path to the directory containing the images you want to watermark.
+
+2. Replace `'path_to_your_watermark_image.png'` in the script with the path to the image you want to use as a watermark.
+
+3. Run the script:
+
+   ```bash
+   python3 watermark.py
+   ```
+
 Your watermarked images will be saved in the same directory as the original images with 'watermarked_' prefixed to the original file names.
 
-Customization
-You can adjust the size and position of the watermark by modifying the watermark_width and position variables in the script.
+## Customization
+
+You can adjust the size and position of the watermark by modifying the `watermark_width` and `position` variables in the script.
 
