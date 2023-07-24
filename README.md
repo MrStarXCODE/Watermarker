@@ -12,7 +12,7 @@ This is a simple script to add a watermark to all images in a specified director
 1. Clone the repository to your local machine:
 
    ```bash
-git clone https://github.com/MrStarXCODE/Watermarker.git
+   git clone https://github.com/MrStarXCODE/Watermarker.git
    ```
    
 2. Navigate to the cloned directory:
